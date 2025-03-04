@@ -1,0 +1,250 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ /* заголовок */
+
+ .containerhead {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+  }
+
+.links {
+    display: flex;
+    margin-right: 100%;
+}
+
+.fixedbutton {
+    position: fixed;
+    background-color: #f5be6d;
+    padding: 2rem;
+    display: flex;
+    width: 100%;
+}
+
+.wordhead {
+    margin-left: 65px;
+    margin-top: 0px;
+    padding: none;
+    color: rgba(161, 67, 67, 0.904);
+    display: flex;
+}
+
+.mainhead {
+    padding: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin: 4px;
+    background-color: rgb(202, 126, 55);
+    color: white;
+    border-radius: 25px;
+    transition: 400ms;
+}
+
+.menuhead {
+    padding: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin: 4px;
+    background-color: rgb(202, 126, 55);
+    color: white;
+    border-radius: 25px;
+    transition: 400ms;
+}
+
+.callhead {
+    padding: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin: 4px;
+    background-color: rgb(202, 126, 55);
+    color: white;
+    border-radius: 25px;
+    transition: 400ms;
+}
+
+a:hover {
+    color: rgb(151, 77, 8);
+    background-color: antiquewhite;
+    transform: scale(1.18);
+}
+
+/* краткое описание*/
+.hero {
+    text-align: center;
+    padding: 2rem;
+}
+
+.kofen {
+    margin-top: 170px;
+    width: 900px;
+    height: 200px;
+    overflow: hidden;
+    border-style: solid;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    /*МЕНЮ*/
+.menuplate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menukof {
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 40px;
+    background-color: #f5be6d;
+}
+
+.esso {
+    width: 70px;
+    height: 70px;
+    
+}
+
+.essotxt {
+    width: 150px;
+    height: 170px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.capu {
+    width: 70px;
+    height: 70px;
+}
+
+.caputxt {
+    width: 150px;
+    height: 170px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.lat {
+    width: 70px;
+    height: 70px;
+}
+
+.lattxt {
+    width: 150px;
+    height: 170px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.amer {
+    width: 70px;
+    height: 70px;
+}
+
+.amertxt {
+    width: 150px;
+    height: 170px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    margin-left: 15px;
+}
+
+.moka {
+    width: 70px;
+    height: 70px;
+}
+
+.mokatxt {
+    width: 150px;
+    height: 170px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    margin-left: 15px;
+}
+
+.raff {
+    width: 70px;
+    height: 70px;
+}
+
+.rafftxt {
+    width: 150px;
+    height: 170px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.glyas {
+    width: 70px;
+    height: 70px;
+}
+
+.glyastxt {
+    width: 150px;
+    height: 170px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.maki {
+    width: 70px;
+    height: 70px;
+}
+
+.makitxt {
+    width: 150px;
+    height: 170px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.menuplate div {
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuplate div:nth-child(-n+3) {
+  border-top: 0;
+}
+
+.menuplate.div:nth-child(3n) {
+  border-right: 0;
+}
